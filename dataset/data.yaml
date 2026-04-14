@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['onion']
+
+roboflow:
+  workspace: robocup2022-kogzd
+  project: onion-9renr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robocup2022-kogzd/onion-9renr/dataset/2

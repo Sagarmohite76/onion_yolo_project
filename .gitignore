@@ -1,0 +1,61 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# ----------------------
+# YOLO / Ultralytics
+# ----------------------
+scripts/runs/             # training outputs (auto-generated)
+*.pt               # model weights (optional to ignore)
+*.onnx
+*.engine
+
+# # ----------------------
+# # Dataset (OPTIONAL)
+# # ----------------------
+# dataset/images/
+# dataset/labels/
+# dataset/train/
+# dataset/valid/
+# dataset/test/
+
+# If dataset is small and you WANT to upload → comment above lines
+
+# ----------------------
+# Outputs
+# ----------------------
+outputs/
+*.jpg
+*.png
+*.mp4
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
