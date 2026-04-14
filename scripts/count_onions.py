@@ -1,13 +1,11 @@
-# count_onions.py
-# Script to count onions in images or videos
 from ultralytics import YOLO
 import cv2
 
 # Load trained model
-model = YOLO("runs/detect/onion_detector/weights/best.pt")
+model = YOLO("runs/detect/onion_detector8/weights/best.pt")
 
 # Load image
-img = cv2.imread("test.jpg")
+img = cv2.imread("res4.jpg")
 
 # Predict
 results = model(img)

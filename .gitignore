@@ -18,7 +18,8 @@ ENV/
 # ----------------------
 # YOLO / Ultralytics
 # ----------------------
-scripts/runs/             # training outputs (auto-generated)
+**/runs/
+# scripts/runs/             # training outputs (auto-generated)
 *.pt               # model weights (optional to ignore)
 *.onnx
 *.engine
